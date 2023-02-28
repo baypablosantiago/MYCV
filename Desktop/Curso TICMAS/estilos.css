@@ -1,0 +1,32 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+}
+
+body {
+    background-color: black;
+}
+
+.claseTitulo{
+    color:#569cd6;
+    text-align: center;
+}
+
+.claseCuerpo{
+    color:#9cdcfe;
+}
+
+.claseTexto{
+    color:#ce9178;
+}
+
+#fototexto{
+    background-image: url("C:/Users/Perro Creativo/Desktop/Curso TICMAS/imagenfondo.png");
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: table;
+    margin: 2rem auto;
+    height: 680px;
+    width: 1300px;
+}
