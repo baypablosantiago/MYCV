@@ -1,32 +1,99 @@
 * {
     font-family: 'Courier New', Courier, monospace;
     color:white;
+    user-select: none;
 }
 
 body {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
-.claseTitulo{
+h1 {
+    text-align:center;
+    position: relative;
+    z-index: 2;
+    font-weight: 400;
+}
+
+#t0,#t2{
+    color:rgb(173, 164, 164);
+    font-stretch: condensed;
+}
+
+#t1{
     color:#569cd6;
-    text-align: center;
 }
 
-.claseCuerpo{
+#t3{
     color:#9cdcfe;
 }
 
-.claseTexto{
+#t4{
     color:#ce9178;
 }
 
 #fototexto{
+    font-size: 12px;
+    line-height: 12px;
     background-image: url("C:/Users/Perro Creativo/Desktop/Curso TICMAS/imagenfondo.png");
     background-clip: text;
+    background-repeat: no-repeat;
     -webkit-background-clip: text;
     color: transparent;
     display: table;
     margin: 2rem auto;
     height: 680px;
     width: 1300px;
+}
+
+.info {
+    width: 500px;
+    height: auto;
+    background: gray;
+    margin: 0 auto;
+    position: absolute;
+    top: 200px; 
+    left: 650px;
+    z-index: 2;
+}
+
+#divFotoTexto{
+    position: absolute;
+    top: 0px; 
+    left: 0px;
+    z-index: 1;
+}
+
+#estProg{
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+#formacion{
+    position: relative;
+    top: 15px; 
+    left: 370px;
+    z-index: 3;
+}
+
+#experiencia{
+    position: relative;
+    top: 15px; 
+    left: 400px;
+    z-index: 3;
+}
+
+#contacto{
+    position: relative;
+    top: 15px; 
+    left: 430px;
+    z-index: 3;
+}
+
+#portfolio{
+    position: relative;
+    top: 15px; 
+    left: 460px;
+    z-index: 3;
 }
